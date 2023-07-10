@@ -1,0 +1,75 @@
+/* common styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #272727;
+}
+
+.secondary-color {
+    color: #27272799;
+}
+
+.btn {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 2px solid #E55473;
+    background-color: white;
+    color: #E55473;
+}
+
+
+
+
+
+/* banner section */
+.banner-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    position: relative;
+}
+
+.banner-info {
+    width: 35%;
+    position: absolute;
+    left: 12.5%;
+}
+
+.banner-info>h1 {
+    font-size: 57px;
+    font-weight: 800;
+}
+
+.banner-info>p {
+    font-size: 14px;
+    margin: 20px 0px;
+    line-height: 25px;
+}
+
+.banner-img {
+    width: 35%;
+    position: absolute;
+    bottom: 0%;
+    right: 12.5%;
+}
+
+.banner-img>img {
+    width: 100%;
+    bottom: 0px;
+}
