@@ -51,7 +51,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.20);
     position: relative;
 }
 
@@ -162,7 +162,7 @@ body {
     justify-content: center;
     gap: 50px;
     align-items: center;
-    background-color: #2727270D;
+    background-color: rgba(39, 39, 39, 0.05);
     margin: 0 auto;
     text-align: center;
     color: #272727CC;
@@ -184,7 +184,7 @@ body {
     height: 50vh;
     display: flex;
     gap: 50px;
-    background-color: rgba(229, 84, 115, 0.05);
+    background-color: rgba(229, 84, 115, 0.20);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -228,6 +228,7 @@ body {
 
 .instagram-info > p {
     margin: 20px 0px;
+    line-height: 20px;
 }
 
 .instagram-img-container{
@@ -267,7 +268,7 @@ body {
 }
 
 .latest-deal-info > p{
-    line-height: 24px;
+    margin-top: 18px;
 }
 
 .latest-deal-input{
@@ -288,6 +289,13 @@ body {
 .latest-deal-input>[type="email"]:focus{
     outline: none;
 }
+
+
+
+
+
+
+
 
 /* this section is done for the bonus */
 /*     customer feedback section      */
@@ -313,6 +321,7 @@ body {
     padding: 20px 25px;
     font-size: 14px;
     font-weight: 800;
+    color: #272727a9;
 }
 
 .customer-feedback-container textarea:focus{
