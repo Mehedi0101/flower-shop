@@ -181,6 +181,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 150px 0px 80px;
 }
 
 .hot-deal-info{
@@ -188,7 +189,7 @@ body {
 }
 
 .hot-deal-info > p {
-    margin-top: 15px;
+    margin: 15px 0px;
     line-height: 22px;
 }
 
@@ -200,4 +201,33 @@ body {
 .hot-deal-img > img{
     height: 100%;
 }
+
+/* instagram section */
+.instagram-container{
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.instagram-info > p {
+    margin: 20px 0px;
+}
+
+.instagram-img-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.instagram-img-container>img{
+    width: 24%;
+}
+
+
 
