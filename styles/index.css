@@ -229,16 +229,22 @@ body {
     width: 24%;
 }
 
+
+/* latest deal section */
 .latest-deal-container{
     width: 75%;
-    height: 40vh;
+    height: 50vh;
     margin: 0 auto;
     background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 8px;
 
 }
 
@@ -257,10 +263,17 @@ body {
 .latest-deal-input>[type="email"]{
     width: 70%;
     padding: 12px 15px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: #27272799;
     border-radius: 8px;
+    background-color: white;
+    border: 0;
 }
+
+.latest-deal-input>[type="email"]:focus{
+    outline: none;
+}
+
 
 
